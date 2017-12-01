@@ -26,6 +26,7 @@ public class Searchsimple {
                 left=midpoint+1;
             else
                 right=midpoint-1;
+            attempts++;
         }
         return -1;
     }
